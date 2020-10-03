@@ -11,7 +11,7 @@ import ImageBox from './components/FaceBox/ImageBox';
 import './App.css';
 
 const app = new Clarifai.App({
-  apiKey: '48953e91ee4b4096849ff9b38d3c68a0'
+  apiKey: Process.env.apikey
 });
 
 const initialState = {
